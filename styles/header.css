@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+
+  align-items: center;
+
+  position: fixed;
+  z-index: 100;
+
+  margin-top: -130px;
+
+  min-width: 750px;
+
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(20, 20, 20));
+}
+
+.links {
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+
+.home,
+.projects-link-container,
+.games-link-container,
+.fictions-link-container{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(200, 20, 20, 0.1);
+
+  justify-content: center;
+  align-items: center;
+
+  color: whitesmoke;
+
+  margin: 2px 2px 2px 2px;
+
+  cursor: pointer;
+
+  transition: background-color 0.05s;
+}
+
+.home:hover,
+.projects-link-container:hover,
+.games-link-container:hover,
+.fictions-link-container:hover {
+  background-color: rgb(200, 20, 20, 0.3);
+}
+
+.home:active,
+.projects-link-container:active,
+.games-link-container:active,
+.fictions-link-container:active {
+  background-color: rgb(200, 20, 20, 0.2);
+}

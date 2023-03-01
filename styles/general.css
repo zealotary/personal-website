@@ -1,0 +1,24 @@
+body {
+  background-image: linear-gradient(to bottom right, rgb(20, 20, 20), rgb(0, 0, 0), rgb(20, 20, 20));
+  margin:0;
+  padding: 130px 0px 500px 0px;
+
+  font-family: Gajraj One, Arial;
+  font-size: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  background-color: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(20, 20, 20);
+  border-radius: 10px;
+}

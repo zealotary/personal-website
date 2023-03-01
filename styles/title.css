@@ -1,0 +1,71 @@
+.title-banner {
+  display: flex;
+  align-items: center;
+  min-width: 750px;
+
+  padding: 10px 0px 10px 0px;
+
+  margin-bottom: 40px;
+
+  position: relative;
+}
+
+.title-letters-welcome {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  flex: 2;
+  height: 100px;
+  padding: 0 10px 0 10px;
+}
+
+.title-letters-projects,
+.title-letters-fictions {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  flex: 2;
+  height: 100px;
+  padding: 0 10px 0 10px;
+}
+
+.title-letters-games {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  flex: 2;
+  height: 100px;
+  padding: 0 10px 0 10px;
+}
+
+.title-spacer {
+  flex: 1;
+}
+
+.title-image-container {
+  display: flex;
+  max-height: 1fr;
+  width: 1fr;
+  min-width: 100px;
+  background-color: rgb(40, 40, 40);
+  padding: 10px 0px 10px 0px;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title-image {
+  object-fit: fill;
+  width: 100%;
+}
+#left-image-container {
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+  background-color: rgb(40, 40, 40);
+  padding-left: 20px;
+}
+
+#right-image-container {
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  background-color: rgb(40, 40, 40);
+  padding-right: 20px;
+}
